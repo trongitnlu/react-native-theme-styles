@@ -22,6 +22,7 @@ setThemeColors({
 ### Usage
 
 ```
+// Init styles
 const styleDefault = StyleSheet.create({
   container: (_isDark, theme) => ({
     flex: 1,
@@ -33,8 +34,13 @@ const styleDefault = StyleSheet.create({
   }
 });
 
-import {useStyle} from 'react-native-theme-styles';
-...
-const styles = useStyle(styleDefault);
+import * as React from 'react';
+import {TouchableOpacity} from 'react-native';
+import {useStyle} from 'react-native-theme-styles'; // Import here
+
+function ExampleView() {
+  const styles = useStyle(styleDefault); // use here
+  console.log('>>>styles', styles);
+  return <View style={styles.container} />
 
 ```
