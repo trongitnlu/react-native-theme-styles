@@ -42,5 +42,5 @@ function ExampleView() {
   const styles = useStyle(styleDefault); // use here
   console.log('>>>styles', styles);
   return <View style={styles.container} />
-
+}
 ```
