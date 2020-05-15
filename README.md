@@ -3,7 +3,7 @@
 `yarn add react-native-theme-styles@https://github.com/trongitnlu/react-native-theme-styles.git`
 
 ### Config
-Import the following lines into app.js
+Add the following lines into app.js
 ```
 import {setThemeColors} from 'react-native-theme-styles';
 ...
