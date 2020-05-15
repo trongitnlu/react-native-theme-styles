@@ -11,11 +11,11 @@ setThemeColors({
   dark: {
     background: 'red',
     text: 'blue',
-  } as ColorsType,
+  },
   light: {
     text: 'yellow',
     background: 'green',
-  } as ColorsType,
+  }
 });
 ```
 
@@ -30,7 +30,7 @@ const styleDefault = StyleSheet.create({
   btnLogin: {
     marginHorizontal: 0,
     marginVertical: 0,
-  },
+  }
 });
 
 import {useStyle} from 'react-native-theme-styles';
