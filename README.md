@@ -4,7 +4,7 @@
 
 ### Config
 Add the following lines into app.js
-```
+```javascript
 import {setThemeColors} from 'react-native-theme-styles';
 ...
 setThemeColors({
@@ -21,7 +21,7 @@ setThemeColors({
 
 ### Usage
 
-```
+```javascript
 // Init styles
 const styleDefault = StyleSheet.create({
   container: (_isDark, theme) => ({
