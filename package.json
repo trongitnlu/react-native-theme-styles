@@ -1,10 +1,14 @@
 {
   "name": "react-native-theme-styles",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "src/index.ts",
   "author": "TrongNV <trongitnlu@gmail.com>",
-  "license": "ISC",
-  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongitnlu/react-native-theme-styles"
+  },
+  "private": false,
   "scripts": {
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"

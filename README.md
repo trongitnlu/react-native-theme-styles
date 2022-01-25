@@ -1,6 +1,6 @@
 # react-native-theme-styles
 ### Install
-`yarn add react-native-theme-styles@https://github.com/trongitnlu/react-native-theme-styles.git`
+`yarn add react-native-theme-styles`
 
 ### Config
 Add the following lines into app.js
